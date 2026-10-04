@@ -2,7 +2,7 @@
 
 ## 1. PROJECT CONTEXT
 
-This project was developed as part of a SAE focused on the design and development of a management system for a fictional zoo, **Zoo'Land**.
+This project was developed as part of an academic project focused on the design and development of a management system for a fictional zoo, **Zoo'Land**.
 
 The goal of the project is to design an application that centralizes and manages the zoo's various activities through an Oracle database and a web interface.
 
