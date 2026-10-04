@@ -140,3 +140,18 @@ Le système permet notamment de :
 * Consulter les informations relatives aux visiteurs et aux parrainages
 * Consulter les statistiques selon les droits de l'utilisateur
 * Gérer les informations du personnel et leur historique
+  
+  ## 6. DÉMONSTRATION VIDÉO
+
+Une vidéo de démonstration du site est fournie avec le projet au format **MP4**.
+
+Pour visualiser le fonctionnement complet de l'application et découvrir les différentes fonctionnalités disponibles selon les rôles, il suffit d'ouvrir le fichier :
+
+```text
+ZOOLAND.mp4
+```
+
+**Durée : 6 min 13 s**
+
+La vidéo présente notamment la connexion des différents utilisateurs, la gestion des droits, la consultation des données ainsi que les principales fonctionnalités de l'application.
+
