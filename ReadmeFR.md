@@ -1,8 +1,4 @@
-# ===========================================================
-
-# PROJET : SYSTÈME DE GESTION DE ZOO
-
-# ===========================================================
+# SYSTÈME DE GESTION DE ZOO
 
 ## 1. CONTEXTE DU PROJET
 
@@ -142,9 +138,3 @@ Le système permet notamment de :
 * Consulter les informations relatives aux visiteurs et aux parrainages
 * Consulter les statistiques selon les droits de l'utilisateur
 * Gérer les informations du personnel et leur historique
-
-# ===========================================================
-
-# FIN DU README
-
-# ===========================================================
