@@ -27,6 +27,8 @@ La base de données a été conçue à partir d'un Modèle Conceptuel de Donnée
 
 Le MCD représente les principales entités du système ainsi que leurs relations et leurs contraintes. Il a servi de référence lors de la conception et de l'implémentation de la base de données Oracle.
 
+<img width="1897" height="816" alt="{268A1AD8-12F5-437C-ADB4-ABECA8BE34F3}" src="https://github.com/user-attachments/assets/53781a9f-f7df-4894-b945-ce4dff9a078f" />
+
 ---
 
 
