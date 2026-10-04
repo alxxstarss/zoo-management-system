@@ -5,22 +5,9 @@ PROJET : SYSTÈME DE GESTION DE ZOO (SAE)
 ===========================================================
 
 
-
 \-----------------------------------------------------------
 
-1\. INFORMATIONS SUR LE BINÔME
-
-\-----------------------------------------------------------
-
-\- ABDENNABI Nadhir (N° Étudiant : 22413698)
-
-\- IDIRI Mehdi (N° Étudiant : 22413882)
-
-
-
-\-----------------------------------------------------------
-
-2\. ACCÈS ET IDENTIFIANTS (TESTS PAR NIVEAUX)
+1\. ACCÈS ET IDENTIFIANTS (TESTS PAR NIVEAUX)
 
 \-----------------------------------------------------------
 
@@ -70,7 +57,7 @@ D. NIVEAU : ENTRETIEN (Technique)
 
 \-----------------------------------------------------------
 
-3\. EXPLICATIONS TECHNIQUES \& CHOIX DE CONCEPTION
+2\. EXPLICATIONS TECHNIQUES \& CHOIX DE CONCEPTION
 
 \-----------------------------------------------------------
 
@@ -102,7 +89,7 @@ D. NIVEAU : ENTRETIEN (Technique)
 
 \-----------------------------------------------------------
 
-4\. INSTALLATION ET DÉPLOIEMENT
+3\. INSTALLATION ET DÉPLOIEMENT
 
 \-----------------------------------------------------------
 
@@ -120,11 +107,11 @@ D. NIVEAU : ENTRETIEN (Technique)
 
 \-----------------------------------------------------------
 
-5\. DÉMONSTRATION VIDÉO
+4\. DÉMONSTRATION VIDÉO
 
 \-----------------------------------------------------------
 
-Fichier : ABDENNABI\_IDIRI.mp4 (Durée : 6:13 minutes)
+Fichier : ZOOLAND.mp4 (Durée : 6:13 minutes)
 
 La vidéo présente le workflow complet, de la connexion d'un soigneur 
 
