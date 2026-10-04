@@ -1,0 +1,58 @@
+/* includes/page_acceuil.css
+   Styles dédiés à la page d'accueil du dashboard.
+   Définit la grille de navigation, les cartes et le style des badges. */
+
+.menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .card-link {
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+            border-top: 5px solid var(--primary-color);
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+
+        .card-link:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+        }
+
+        .card-link h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .card-link p {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+
+        /* Badge de rôle */
+        .role-badge {
+            background: var(--secondary-color);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        /* Style spécial pour les cartes Admin/Comptable */
+        .admin-card {
+            border-top-color: #3498db;
+        }
+        .admin-card h3 {
+            color: #3498db;
+        }

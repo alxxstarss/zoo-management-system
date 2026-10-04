@@ -1,0 +1,105 @@
+/* --- GESTION DU PERSONNEL & RH --- */
+
+/* Conteneur de la barre de navigation spécifique RH */
+.nav-bar {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar-links {
+    display: flex;
+    gap: 15px;
+}
+
+/* Boutons d'action */
+.btn-add {
+    background-color: #27ae60;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-add:hover {
+    background-color: #219150;
+    transform: translateY(-2px);
+}
+
+/* Tableau de gestion */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 10px;
+}
+
+th {
+    background-color: #f8fbf9;
+    color: #555;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    padding: 15px;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+td {
+    padding: 15px;
+    vertical-align: middle;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Badges de Poste */
+.badge-poste {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: #e3f2fd;
+    color: #1565c0;
+    border: 1px solid #bbdefb;
+}
+
+/* Styles des actions */
+.action-links {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-delete {
+    color: #e74c3c;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.btn-delete:hover {
+    background-color: #fff5f5;
+    text-decoration: underline;
+}
+
+/* Alertes de confirmation (msg) */
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #28a745;
+    margin-bottom: 20px;
+    animation: fadeIn 0.5s ease-in;
+}

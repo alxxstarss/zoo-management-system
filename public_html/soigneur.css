@@ -1,0 +1,128 @@
+/* --- TABLEAU DES TOURNÉES --- */
+/* includes/soigneur.css
+   Styles dédiés à la page du soigneur pour les listings et actions. */
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Supprime les doubles bordures */
+    margin: 20px 0;
+    background-color: var(--white);
+    border-radius: 8px;
+    overflow: hidden; /* Pour que les arrondis s'appliquent aussi aux coins du tableau */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* En-tête du tableau */
+table thead tr {
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Style des cellules (En-tête et Corps) */
+table th, 
+table td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+/* Effet de zébrure (une ligne sur deux en gris très clair) */
+table tbody tr:nth-of-type(even) {
+    background-color: #f8fbf9;
+}
+
+/* Effet au survol de la souris sur une ligne */
+table tbody tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.2s ease;
+}
+
+/* --- BOUTONS D'ACTION DANS LE TABLEAU --- */
+/* On adapte la classe .btn pour les petites actions de tableau */
+table .btn {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    margin-right: 5px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* couleur spécifique pour le bouton Soigner */
+.btn-soin {
+    background-color: #3498db;
+}
+
+.btn-soin:hover {
+    background-color: #2980b9;
+}
+
+/* couleur specifique pour le bouton Nourrir*/
+.btn-nourrir {
+    background-color: #e67e22;
+}
+
+.btn-nourrir:hover {
+    background-color: #d35400;
+}
+
+/* --- BARRE DE NAVIGATION --- */
+.navbar {
+    background-color: var(--secondary-color); 
+    color: white;
+    padding: 0.8rem 2rem;
+    display: flex;
+    justify-content: space-between; /* Titre à gauche, boutons à droite */
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    position: sticky; /* Reste en haut au défilement */
+    top: 0;
+    z-index: 1000; /* Passe au-dessus du reste du contenu */
+}
+
+
+.navbar h1 {
+    font-size: 1.4rem;
+    margin: 0;
+    letter-spacing: 1px;
+    color: white; 
+}
+
+/* Conteneur des liens/boutons */
+.nav-links {
+    display: flex;
+    gap: 15px; /* Espace constant entre les boutons */
+    align-items: center;
+}
+
+/* Adaptation des boutons spécifiques à la navbar */
+.nav-links .btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+/* Bouton "Accueil" discret */
+.btn-outline {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.3) !important;
+}
+
+.btn-outline:hover {
+    background: rgba(255,255,255,0.1);
+    border-color: white !important;
+}
+
+/* Bouton "Déconnexion" qui ressort */
+.btn-danger {
+    background-color: #e74c3c;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+    transform: translateY(-1px); /*effet de levier au survol */
+}
